@@ -1,4 +1,4 @@
-# 📁 Year 1, Semester 2
+# 📁 Year 1 Semester 2
 
 ![Year](https://img.shields.io/badge/Year-1-1D9E75?style=flat-square)
 ![Semester](https://img.shields.io/badge/Semester-2-085041?style=flat-square)
