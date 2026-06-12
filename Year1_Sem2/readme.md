@@ -24,18 +24,7 @@ Semester 2 of Year 1 felt like things started getting real. The courses got more
 
 ---
 
-## 📚 Courses
-
-| Course | Folder |
-|--------|--------|
-| Computer Organization & Architecture | [Open](https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year1_Sem2/COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE) |
-| Human Computer Interaction | [Open](https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year1_Sem2/HUMAN%20COMPUTER%20INTERACTION) |
-| Probability & Statistical Data Analysis | [Open](https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year1_Sem2/PROBABILITY%20AND%20STATISTICAL%20DATA%20ANALYSIS) |
-| Programming Technique II | [Open](https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year1_Sem2/PROGRAMMING%20TECHNIQUE%202)|
-
----
-
-## 🖥 Computer Organization & Architecture
+## 🖥 <ins><a href="https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year1_Sem2/COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE">Computer Organization & Architecture</a></ins>
 
 ### Course Overview
 
@@ -47,7 +36,7 @@ Before this course, I treated computers like a black box. I knew how to write co
 
 ---
 
-## 👤 Human Computer Interaction
+## 👤 <ins><a href="https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year1_Sem2/HUMAN%20COMPUTER%20INTERACTION">Human Computer Interaction</a></ins>
 
 ### Course Overview
 
@@ -59,7 +48,7 @@ This was probably the most different course from what I expected in a CS program
 
 ---
 
-## 📊 Probability & Statistical Data Analysis
+## 📊 <ins><a href="https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year1_Sem2/PROBABILITY%20AND%20STATISTICAL%20DATA%20ANALYSIS">Probability & Statistical Data Analysis</a></ins>
 
 ### Course Overview
 
@@ -71,11 +60,11 @@ Honestly, this course was tough at the start because the notation and concepts w
 
 ---
 
-## 💻 Programming Technique II
+## 💻 <ins><a href="https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year1_Sem2/PROGRAMMING%20TECHNIQUE%202">Programming Technique II</a></ins>
 
 ### Course Overview
 
-This is the continuation of Programming Technique I, but with a bigger shift in how we write code. The focus moved to object-oriented programming. I learn things like classes, objects, inheritance, and encapsulation. We also touched on data structures and more advanced problem-solving approaches.
+This is the continuation of Programming Technique I, but with a bigger shift in how we write code. The focus moved to object-oriented programming. I learned things like classes, objects, inheritance, and encapsulation. We also touched on data structures and more advanced problem-solving approaches.
 
 ### Reflection
 
