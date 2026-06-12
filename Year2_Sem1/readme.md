@@ -23,18 +23,7 @@ Year 2 Semester 1 is where things started feeling more serious. The subjects bec
 
 ---
 
-## 📚 Courses
-
-| Course | Folder |
-|--------|--------|
-| Data Structure and Algorithm | [Open](https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year2_Sem1/DATA%20STRUCTURE%20AND%20ALGORITHM) |
-| Database | [Open](https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year2_Sem1/DATABASE) |
-| Software Engineering | [Open](https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year2_Sem1/SOFTWARE%20ENGINEERING) |
-| System Development Technology | [Open](https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year2_Sem1/SYSTEM%20DEVELOPMENT%20TECHNOLOGY) |
-
----
-
-## 🗂 Data Structure and Algorithm
+## 🗂 <ins><a href="https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year2_Sem1/DATA%20STRUCTURE%20AND%20ALGORITHM">Data Structure and Algorithm</a></ins>
 
 ### Course Overview
 
@@ -46,7 +35,7 @@ This was one of the harder courses in Year 2 but also one of the most rewarding.
 
 ---
 
-## 🗄 Database
+## 🗄 <ins><a href="https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year2_Sem1/DATABASE">Database</a></ins>
 
 ### Course Overview
 
@@ -58,7 +47,7 @@ Database was one of the most practical courses I have taken so far. SQL felt str
 
 ---
 
-## ⚙️ Software Engineering
+## ⚙️ <ins><a href="https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year2_Sem1/SOFTWARE%20ENGINEERING">Software Engineering</a></ins>
 
 ### Course Overview
 
@@ -70,7 +59,7 @@ I used to think software engineering was just another name for programming. This
 
 ---
 
-## 🔧 System Development Technology
+## 🔧 <ins><a href="https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year2_Sem1/SYSTEM%20DEVELOPMENT%20TECHNOLOGY">System Development Technology</a></ins>
 
 ### Course Overview
 
