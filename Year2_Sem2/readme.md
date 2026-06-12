@@ -73,7 +73,7 @@ This course helped me understand how larger programs should be structured. Inste
 
 ---
 
-## 🖥 [Operating System](https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year2_Sem2/OPERATING%20SYSTEM)
+## 🖥 <ins><a href="https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year2_Sem2/OPERATING%20SYSTEM">Operating System</a></ins>
 
 ### Course Overview
 
@@ -85,7 +85,7 @@ Operating System was a challenging course because some concepts were more abstra
 
 ---
 
-## 🧠 [Philosophy](https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year2_Sem2/PHILOSOPHY)
+## 🧠 <ins><a href="https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year2_Sem2/PHILOSOPHY">Philosophy</a></ins>
 
 ### Course Overview
 
@@ -97,8 +97,7 @@ This course was different from the technical subjects, but it was still meaningf
 
 ---
 
-## 🚀 [Technopreneurship](https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year2_Sem2/TECHNOPRENEURSHIP)
-
+## 🚀 <ins><a href="https://github.com/chauyingjia/UTM_Degree_Coursework/tree/main/Year2_Sem2/TECHNOPRENEURSHIP">Technopreneurship</a></ins>
 ### Course Overview
 
 Technopreneurship focused on the combination of technology and entrepreneurship. The course introduced how business ideas are developed, how technology can solve market problems, and how innovation can create value. It also encouraged students to think about business opportunities from a technology perspective.
