@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\PSDA LIST ALL STUDENTS_AIMSWEB.xlsx|||`ALL STUDS PSDA$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PSDA LIST ALL STUDENTS_AIMSWEB.xlsx
+Query=`ALL STUDS PSDA$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NO.MATRIK" size="255" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\PSDA LIST ALL STUDENTS_AIMSWEB.xlsx|||`ALL STUDS PSDA$`" type="V_String" />
+            <Field name="SEC" size="255" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\PSDA LIST ALL STUDENTS_AIMSWEB.xlsx|||`ALL STUDS PSDA$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\SECI2143-00-MIDTERM TEST-grades.xlsx|||`SECI2143-00 MIDTERM TEST$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SECI2143-00-MIDTERM TEST-grades.xlsx
+Query=`SECI2143-00 MIDTERM TEST$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="MatricNo" size="255" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\SECI2143-00-MIDTERM TEST-grades.xlsx|||`SECI2143-00 MIDTERM TEST$`" type="V_String" />
+            <Field name="Started on" size="255" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\SECI2143-00-MIDTERM TEST-grades.xlsx|||`SECI2143-00 MIDTERM TEST$`" type="V_String" />
+            <Field name="Completed" size="255" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\SECI2143-00-MIDTERM TEST-grades.xlsx|||`SECI2143-00 MIDTERM TEST$`" type="V_String" />
+            <Field name="Time taken" size="255" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\SECI2143-00-MIDTERM TEST-grades.xlsx|||`SECI2143-00 MIDTERM TEST$`" type="V_String" />
+            <Field name="Grade/50.00" size="255" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\SECI2143-00-MIDTERM TEST-grades.xlsx|||`SECI2143-00 MIDTERM TEST$`" type="V_String" />
+            <Field name="Q. 1 /10.00" size="255" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\SECI2143-00-MIDTERM TEST-grades.xlsx|||`SECI2143-00 MIDTERM TEST$`" type="V_String" />
+            <Field name="Q. 2 /10.00" size="255" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\SECI2143-00-MIDTERM TEST-grades.xlsx|||`SECI2143-00 MIDTERM TEST$`" type="V_String" />
+            <Field name="Q. 3 /5.00" size="255" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\SECI2143-00-MIDTERM TEST-grades.xlsx|||`SECI2143-00 MIDTERM TEST$`" type="V_String" />
+            <Field name="Q. 4 /5.00" size="255" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\SECI2143-00-MIDTERM TEST-grades.xlsx|||`SECI2143-00 MIDTERM TEST$`" type="V_String" />
+            <Field name="Q. 5 /3.00" size="255" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\SECI2143-00-MIDTERM TEST-grades.xlsx|||`SECI2143-00 MIDTERM TEST$`" type="V_String" />
+            <Field name="Q. 6 /7.00" size="255" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\SECI2143-00-MIDTERM TEST-grades.xlsx|||`SECI2143-00 MIDTERM TEST$`" type="V_String" />
+            <Field name="Q. 7 /10.00" size="255" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\SECI2143-00-MIDTERM TEST-grades.xlsx|||`SECI2143-00 MIDTERM TEST$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="330" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="NO.MATRIK" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="MatricNo" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_NO.MATRIK" selected="False" input="Left_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="498" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="SEC" action="GroupBy" rename="Section" />
+            <SummarizeField field="NO.MATRIK" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="222" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Trim([SEC],&quot;0&quot;)" field="SEC" size="255" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[SEC = Trim([SEC],"0")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="498" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25"><![CDATA[C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\StuMidTerm.xlsx|||Sec ]]></File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <MipTenantId />
+            <PreserveFormat>False</PreserveFormat>
+            <MipSensitivity />
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <SuppressBlankFile>False</SuppressBlankFile>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="True" />
+          <MultiFileType>Suffix</MultiFileType>
+          <MultiFileField>SEC</MultiFileField>
+          <KeepField value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[StuMidTerm.xlsx
+Query=Sec ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Left" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Lab Exercise 3</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="1ddc6a87-57dd-4251-b2d8-2cc8fa3b96ee" />
+      <Telemetry>
+        <PreviousWorkflowId value="ee3caee1-b27e-4ce2-9aa8-424f5c5ec05b" />
+        <OriginWorkflowId value="ee3caee1-b27e-4ce2-9aa8-424f5c5ec05b" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

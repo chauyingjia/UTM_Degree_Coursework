@@ -1,0 +1,532 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="89" y="136" width="601" height="149" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Mine answer</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Mine answer</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="114" y="185" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>,</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>EduFunGames.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Product" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="Category" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="January_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="February_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="March_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="April_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="May_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="June_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="July_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="August_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="September_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="October_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="November_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="December_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="342" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Category" action="GroupBy" rename="Category" />
+                <SummarizeField field="January_Sales" action="Sum" rename="Sum_January_Sales" />
+                <SummarizeField field="February_Sales" action="Sum" rename="Sum_February_Sales" />
+                <SummarizeField field="March_Sales" action="Sum" rename="Sum_March_Sales" />
+                <SummarizeField field="April_Sales" action="Sum" rename="Sum_April_Sales" />
+                <SummarizeField field="May_Sales" action="Sum" rename="Sum_May_Sales" />
+                <SummarizeField field="June_Sales" action="Sum" rename="Sum_June_Sales" />
+                <SummarizeField field="July_Sales" action="Sum" rename="Sum_July_Sales" />
+                <SummarizeField field="August_Sales" action="Sum" rename="Sum_August_Sales" />
+                <SummarizeField field="September_Sales" action="Sum" rename="Sum_September_Sales" />
+                <SummarizeField field="October_Sales" action="Sum" rename="Sum_October_Sales" />
+                <SummarizeField field="November_Sales" action="Sum" rename="Sum_November_Sales" />
+                <SummarizeField field="December_Sales" action="Sum" rename="Sum_December_Sales" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="234" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Product" selected="False" />
+                <Field field="Category" selected="False" />
+                <Field field="January_Sales" selected="True" />
+                <Field field="February_Sales" selected="True" />
+                <Field field="March_Sales" selected="True" />
+                <Field field="April_Sales" selected="True" />
+                <Field field="May_Sales" selected="True" />
+                <Field field="June_Sales" selected="True" />
+                <Field field="July_Sales" selected="True" />
+                <Field field="August_Sales" selected="True" />
+                <Field field="September_Sales" selected="True" />
+                <Field field="October_Sales" selected="True" />
+                <Field field="November_Sales" selected="True" />
+                <Field field="December_Sales" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Product" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="Category" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="January_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="February_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="March_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="April_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="May_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="June_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="July_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="August_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="September_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="October_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="November_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="December_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="462" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="Category" />
+              </KeyFields>
+              <DataFields>
+                <Field field="Category" selected="False" />
+                <Field field="Sum_January_Sales" selected="True" />
+                <Field field="Sum_February_Sales" selected="True" />
+                <Field field="Sum_March_Sales" selected="True" />
+                <Field field="Sum_April_Sales" selected="True" />
+                <Field field="Sum_May_Sales" selected="True" />
+                <Field field="Sum_June_Sales" selected="True" />
+                <Field field="Sum_July_Sales" selected="True" />
+                <Field field="Sum_August_Sales" selected="True" />
+                <Field field="Sum_September_Sales" selected="True" />
+                <Field field="Sum_October_Sales" selected="True" />
+                <Field field="Sum_November_Sales" selected="True" />
+                <Field field="Sum_December_Sales" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="606" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Category" action="GroupBy" rename="Category" />
+                <SummarizeField field="Value" action="Sum" rename="Sum_Value" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="88" y="352" width="815" height="300" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dr answer</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Dr answer</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="113" y="402" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>,</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>EduFunGames.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Product" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="Category" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="January_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="February_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="March_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="April_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="May_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="June_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="July_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="August_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="September_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="October_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="November_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="December_Sales" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="234" y="401" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Product" selected="False" />
+                <Field field="Category" selected="False" />
+                <Field field="January_Sales" selected="True" />
+                <Field field="February_Sales" selected="True" />
+                <Field field="March_Sales" selected="True" />
+                <Field field="April_Sales" selected="True" />
+                <Field field="May_Sales" selected="True" />
+                <Field field="June_Sales" selected="True" />
+                <Field field="July_Sales" selected="True" />
+                <Field field="August_Sales" selected="True" />
+                <Field field="September_Sales" selected="True" />
+                <Field field="October_Sales" selected="True" />
+                <Field field="November_Sales" selected="True" />
+                <Field field="December_Sales" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Product" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="Category" size="254" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="V_String" />
+                <Field name="January_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="February_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="March_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="April_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="May_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="June_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="July_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="August_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="September_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="October_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="November_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+                <Field name="December_Sales" source="File: C:\Users\chauy\Documents\Y3S2\BUSINESS INTELLIGENCE\chap4 Lab Exercise\LabExercise_Dataset\EduFunGames.csv" type="Int32" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="366" y="402" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="Product" />
+                <Field field="Category" />
+              </KeyFields>
+              <DataFields>
+                <Field field="Product" selected="False" />
+                <Field field="Category" selected="False" />
+                <Field field="January_Sales" selected="True" />
+                <Field field="February_Sales" selected="True" />
+                <Field field="March_Sales" selected="True" />
+                <Field field="April_Sales" selected="True" />
+                <Field field="May_Sales" selected="True" />
+                <Field field="June_Sales" selected="True" />
+                <Field field="July_Sales" selected="True" />
+                <Field field="August_Sales" selected="True" />
+                <Field field="September_Sales" selected="True" />
+                <Field field="October_Sales" selected="True" />
+                <Field field="November_Sales" selected="True" />
+                <Field field="December_Sales" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="498" y="402" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Name" selected="True" rename="Month" />
+                <SelectField field="Value" selected="True" rename="Sales Amount" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="630" y="402" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Category" action="GroupBy" rename="Category" />
+                <SummarizeField field="Sales Month" action="Sum" rename="Sum_Sales Month" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="774" y="402" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Sum_Sales Month" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Sum_Sales Month - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="630" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Trim([Month],&quot;_Sales&quot;)" field="Month" size="15" type="String" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Month = Trim([Month],"_Sales")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Lab Exercise 4</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0d8248e7-0ab2-4faa-b2f3-e5d61447040b" />
+      <Telemetry>
+        <PreviousWorkflowId value="51449bff-8fbb-4ce2-944b-16f94565c266" />
+        <OriginWorkflowId value="51449bff-8fbb-4ce2-944b-16f94565c266" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
