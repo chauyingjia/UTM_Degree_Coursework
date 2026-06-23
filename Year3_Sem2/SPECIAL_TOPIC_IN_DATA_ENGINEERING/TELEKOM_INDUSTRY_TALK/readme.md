@@ -1,6 +1,6 @@
 ## 🏢 Reflection: Telekom Malaysia Industry Talk
 
-On the 20th of May, I attended an industry talk by Mr. Zaid Waqi Zulkifli from Telekom Malaysia. This session gave me a clearer understanding of how enterprise data systems work in large organizations and how they are often more complex than what is usually learned in the classroom.
+On the 20th of May, I attended an industry talk by Mr. Zaid Waqi Zulkifli from TMOne Malaysia. This session gave me a clearer understanding of how enterprise data systems work in large organizations and how they are often more complex than what is usually learned in the classroom.
 
 ### 💡 What I Gained
 
