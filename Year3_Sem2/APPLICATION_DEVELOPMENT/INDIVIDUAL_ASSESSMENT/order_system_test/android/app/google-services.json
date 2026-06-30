@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1065759421124",
+    "project_id": "order-system-test",
+    "storage_bucket": "order-system-test.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065759421124:android:ba961ae95781a884e88f91",
+        "android_client_info": {
+          "package_name": "com.example.order_system_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD52XAHw8mu32Qxg8-OvjXqIu8A0JhLZUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
